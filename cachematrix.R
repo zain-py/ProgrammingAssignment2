@@ -22,7 +22,7 @@ makeCacheMatrix <- function(x = matrix()) {
 ## Write a short comment describing this function
 
 
-## This function computes the inverse of "matrix" returned by above function
+## This function computes the inverse of "matrix" returned by the above function
 cacheinverse <- function(x, ...) {
     inv <- x$getinverse()
     if(!is.null(inv)) {
